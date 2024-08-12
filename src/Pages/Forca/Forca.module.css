@@ -1,0 +1,160 @@
+.jogo{
+    display: flex;
+    min-width: 40%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0e0e0e;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+
+.forca {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background-color: #1a1a1a;
+    border: 5px solid #7f00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(127, 0, 255, 0.5);
+    margin-bottom: 20px;
+}
+
+.palavra {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #e0e0e0;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+}
+
+.input {
+    font-size: 36px;
+    width: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #7f00ff;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.input:disabled {
+    background-color: #333;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    color: #ff007f;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+}
+
+.recomeçarButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #7f00ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(127, 0, 255, 0.5);
+}
+
+.recomeçarButton:hover {
+    background-color: #6a00e0;
+}
+
+.forca::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 150px;
+    background-color: #7f00ff;
+}
+
+.forca::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 10px;
+    background-color: #7f00ff;
+}
+
+.head,
+.body,
+.leftArm,
+.rightArm,
+.leftLeg,
+.rightLeg {
+    position: absolute;
+    background-color: #7f00ff;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.head {
+    top: 150px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.body {
+    top: 230px;
+    left: calc(50% - 15px);
+    width: 30px;
+    height: 100px;
+    opacity: 0;
+}
+
+.leftArm {
+    top: 230px;
+    left: calc(50% - 45px);
+    width: 30px;
+    height: 100px;
+    opacity: 0;
+}
+
+.rightArm {
+    top: 230px;
+    left: calc(50% + 15px);
+    width: 30px;
+    height: 100px;
+    opacity: 0;
+}
+
+.leftLeg {
+    bottom: 15%;
+    left: calc(50% - 45px);
+    width: 30px;
+    height: 100px;
+    opacity: 0;
+}
+
+.rightLeg {
+    bottom: 15%;
+    left: calc(50% + 15px);
+    width: 30px;
+    height: 100px;
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}

@@ -1,0 +1,10 @@
+.banner {
+    background-image: url('/public/images/banner.png');
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

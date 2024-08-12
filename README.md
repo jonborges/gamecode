@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🎮 GameCode - Jogos Criados com Programação 🕹️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao **GameCode**! Aqui você encontra uma coleção de jogos interativos, todos desenvolvidos 100% com programação. Explore, divirta-se e desafie seus amigos com estes incríveis jogos que combinam lógica, criatividade e diversão! 🚀
 
-## Available Scripts
+## 🌟 Jogos Disponíveis
 
-In the project directory, you can run:
+1. **💣 Campo Minado**  
+   Desafie suas habilidades e descubra todas as bombas sem explodir! Será que você consegue vencer o tabuleiro?
 
-### `npm start`
+2. **🔤 Forca**  
+   Teste seu vocabulário e tente adivinhar a palavra antes de ser enforcado! Quantas palavras você consegue salvar?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **❌⭕ Jogo da Velha**  
+   O clássico jogo de estratégia. Desafie um amigo ou jogue contra o computador! Será que você consegue fazer três em linha?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **🎵 Adivinhe a Música com Emojis**  
+   Uma divertida maneira de testar seus conhecimentos musicais! Tente adivinhar a música apenas pelos emojis.
 
-### `npm test`
+5. **🎬 Adivinhe o Filme com Emojis**  
+   Um desafio para os cinéfilos! Adivinhe o título do filme representado pelos emojis.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologias Utilizadas
 
-### `npm run build`
+- **React**: Biblioteca JavaScript para construir interfaces de usuário.
+- **React Router DOM**: Para navegação entre as páginas dos jogos.
+- **CSS Modules**: Estilização dos componentes de forma modular e reutilizável.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Como Rodar o Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/gamecode.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd gamecode
 
-### `npm run eject`
+3. Instale as dependências:
+   ```bash
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Inicie o projeto:
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📝 Licença
+- Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para usá-lo como quiser!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contribuições
+- Contribuições são bem-vindas! Se você deseja melhorar algum jogo ou adicionar novos, fique à vontade para enviar um pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📬 Contato
 
-## Learn More
+Se você tiver dúvidas, sugestões ou quiser bater um papo sobre desenvolvimento, entre em contato!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Email: jonathanborgesandrade@gmail.com
+- LinkedIn: [Seu Nome](https://www.linkedin.com/in/jonathan-borges-andrade/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

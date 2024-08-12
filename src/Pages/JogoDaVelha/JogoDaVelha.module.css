@@ -1,0 +1,61 @@
+.velha {
+    text-align: center;
+  }
+  
+  .status {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #000000;
+  }
+  
+  .board {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .boardRow {
+    display: flex;
+  }
+  
+  .square {
+    width: 120px;
+    height: 120px;
+    background: #4a0c60;
+    border: 2px solid #e0e0e0;
+    font-size: 4rem;
+    color: #e0e0e0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+  
+  .square:hover {
+    background: #6c1e8e;
+    box-shadow: 0 0 10px 4px rgba(159, 0, 159, 0.8);
+  }
+  
+  .resetButton {
+    margin-top: 30px;
+    padding: 20px 40px;
+    font-size: 2rem;
+    cursor: pointer;
+    background: #6c1e8e;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+  
+  .resetButton:hover {
+    background: #4a0c60;
+    box-shadow: 0 0 10px 4px rgba(159, 0, 159, 0.8);
+  }
+  
+  .velha button {
+    position: relative;
+    left: 0px;
+  }
+  

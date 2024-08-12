@@ -1,0 +1,58 @@
+.musica {
+    text-align: center;
+    padding: 20px;
+  }
+
+.musica button{
+    background-color: #7f00ff;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    left: 0;
+}
+  
+.header {
+    margin-bottom: 20px;
+  }
+  
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.emojiContainer {
+  font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+.emoji {
+    margin: 0 0.5rem;
+  }
+  
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+.option {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    border-radius: 5px;
+  }
+  
+.option.correct {
+    background-color: green;
+    color: white;
+  }
+  
+.option.incorrect {
+    background-color: red;
+    color: white;
+  }
+  

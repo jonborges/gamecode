@@ -1,0 +1,31 @@
+.campo {
+    margin: 0;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background: #2a0a3b;
+  }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+  
+.campo p {
+    font-size: 18px;
+    padding-top: 15px;
+    color: #e0e0e0;
+}
+  
+  
+canvas {
+    border: 1px solid #e0e0e0;
+    display: block;
+}
+
+  
